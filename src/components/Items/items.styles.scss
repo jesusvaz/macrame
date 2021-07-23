@@ -1,0 +1,28 @@
+img{
+    border-radius: 20%;
+    width: 50vh;
+    height: 50vh;
+}
+
+h2{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.item{
+    border-width: 1px;
+    border-style: solid;
+ 
+}
+
+
+@media only screen and (max-width: 600px) {
+    .item{
+        border-width: 1px;
+        border-style: solid;
+        // padding: 50px;
+        //padding-bottom: 50px;
+        padding-left: 50px;
+        //background-color: brown;
+    }
+  }

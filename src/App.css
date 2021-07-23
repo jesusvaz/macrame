@@ -1,5 +1,15 @@
 .App {
   text-align: center;
+  font-family: 'Dancing Script', cursive;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;;
+}
+
+h1{
+  font-size:  3vh;
 }
 
 .App-logo {
