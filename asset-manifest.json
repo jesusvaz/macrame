@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/macrame/static/css/main.2fb9e1ea.chunk.css",
+    "main.js": "/macrame/static/js/main.f95c4d45.chunk.js",
+    "main.js.map": "/macrame/static/js/main.f95c4d45.chunk.js.map",
+    "runtime-main.js": "/macrame/static/js/runtime-main.1217a74a.js",
+    "runtime-main.js.map": "/macrame/static/js/runtime-main.1217a74a.js.map",
+    "static/js/2.d05df523.chunk.js": "/macrame/static/js/2.d05df523.chunk.js",
+    "static/js/2.d05df523.chunk.js.map": "/macrame/static/js/2.d05df523.chunk.js.map",
+    "static/js/3.cb9720f1.chunk.js": "/macrame/static/js/3.cb9720f1.chunk.js",
+    "static/js/3.cb9720f1.chunk.js.map": "/macrame/static/js/3.cb9720f1.chunk.js.map",
+    "index.html": "/macrame/index.html",
+    "static/css/main.2fb9e1ea.chunk.css.map": "/macrame/static/css/main.2fb9e1ea.chunk.css.map",
+    "static/js/2.d05df523.chunk.js.LICENSE.txt": "/macrame/static/js/2.d05df523.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1217a74a.js",
+    "static/js/2.d05df523.chunk.js",
+    "static/css/main.2fb9e1ea.chunk.css",
+    "static/js/main.f95c4d45.chunk.js"
+  ]
+}
