@@ -14,19 +14,20 @@ function Products() {
         {
             "id": "2",
             "desc": "Dark Green",
-            "price": 30,
+            "price": 35,
             "image":"https://firebasestorage.googleapis.com/v0/b/ventas-bdd23.appspot.com/o/green-strong.JPG?alt=media&token=c0901c47-4161-4c16-8c2f-cd73f8fded5a"
           },
           {
             "id": "3",
             "desc": "Dark Green",
-            "price": 40,
+            "price": 55,
+            "conten":"cristal",
             "image":"https://firebasestorage.googleapis.com/v0/b/ventas-bdd23.appspot.com/o/green.JPG?alt=media&token=3431d726-d0cc-4f5c-92b3-198531bf2701"
           },
           {
               "id": "4",
               "desc": "Jute",
-              "price": 50,
+              "price": 85,
               "image":"https://firebasestorage.googleapis.com/v0/b/ventas-bdd23.appspot.com/o/mecate-ligth.JPG?alt=media&token=7aa30719-b610-4a35-92e1-d91670ad3af0"
             },
             {
@@ -37,26 +38,29 @@ function Products() {
             },
             {
                 "id": "6",
-                "desc": "Pink",
-                "price": 70,
+                "desc": "Orange",
+                "price": 30,
                 "image":"https://firebasestorage.googleapis.com/v0/b/ventas-bdd23.appspot.com/o/pink.JPG?alt=media&token=cd73f37c-2c5d-479a-a21e-749d1ff4e3cb"
             },
             {
                 "id": "7",
                 "desc": "Blue Small",
-                "price": 75,
+                "price": 25,
+                "content":"cristal start",
                 "image":"https://firebasestorage.googleapis.com/v0/b/ventas-bdd23.appspot.com/o/skiny-blue.JPG?alt=media&token=179240f9-5b4e-470b-8ad7-fa193fab5e13"
             },
             {
                 "id": "8",
                 "desc": "White",
-                "price": 85,
+                "price": 75,
+                "content":"Wood base",
                 "image":"https://firebasestorage.googleapis.com/v0/b/ventas-bdd23.appspot.com/o/white.JPG?alt=media&token=77161b68-c480-4338-8295-ff85652d405f"
             },
             {
                 "id": "9",
                 "desc": "Yellow",
-                "price": 95,
+                "price": 35,
+                "content":"cristal",
                 "image":"https://firebasestorage.googleapis.com/v0/b/ventas-bdd23.appspot.com/o/yellow.JPG?alt=media&token=0577d6de-cc23-4b56-aa10-46cc380745e0"
             },
             {
@@ -67,20 +71,47 @@ function Products() {
             },
             {
                 "id": "11",
-                "desc": "Macrame Key Chain",
-                "price": 95,
+                "desc": "Macrame Key Chain / each",
+                "price": 9,
                 "image":"https://firebasestorage.googleapis.com/v0/b/ventas-bdd23.appspot.com/o/llaveros.JPG?alt=media&token=6f1faf10-a7f5-408e-b22f-324f7029615b"
             },
             {
                 "id": "12",
                 "desc": "Big Hanger",
-                "price": 95,
+                "price": 210,
                 "image":"https://firebasestorage.googleapis.com/v0/b/ventas-bdd23.appspot.com/o/lamp-big.JPG?alt=media&token=c8e50e68-a825-4786-9929-7c1c321abd12"
             },
-            
-                              
-   
-        
+           
+            {
+                "id": "13",
+                "desc": "Small star",
+                "price": "20",
+                "image":""
+            },
+            {
+                "id": "14",
+                "desc": "Flat White",
+                "price": "30",
+                "image":""
+            },
+            {
+                "id": "145",
+                "desc": "White with Pink",
+                "price": "30",
+                "image":""
+            },
+            {
+                "id": "14",
+                "desc": "Blue",
+                "price": "55",
+                "image":""
+            },
+            {
+                "id": "14",
+                "desc": "Natural",
+                "price": "110",
+                "image":""
+            },
       ]
 
       const itemsjsx = products.map((item) => <Item
